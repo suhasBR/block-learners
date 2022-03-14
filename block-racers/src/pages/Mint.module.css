@@ -1,0 +1,86 @@
+.mint-page{
+    display: flex;
+    flex-direction: column;
+}
+
+.full-page {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.sidebar-container{
+    width: 17%;
+}
+
+.wallet-container {
+    width: 24.5%;
+}
+
+/* Main content begins */
+
+.main-content{
+    width: 58.5%;
+    padding: 2rem 1rem;
+    font-family: var(--default-font);
+    overflow: auto;
+    /* scrollbar-width: none; */
+}
+
+.main-content::-webkit-scrollbar{
+    /* display: none; */
+}
+
+.title{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.5rem;
+}
+
+.nft-holder{
+    margin: 1rem auto;
+    width: 30rem;
+}
+
+.mint-button{
+    background-color: #FCB3B3;
+    border: none;
+    margin: 1rem auto;
+    font-size: 1.5rem;
+    padding: 0.5rem 2rem;
+    border-radius: 0.75rem;
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+.price{
+    margin: 0rem auto;
+}
+
+.connect-buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+.connect-sequence{
+    border: none;
+    margin: 1rem auto;
+    font-size: 1.5rem;
+    padding: 0.5rem 2rem;
+    border-radius: 0.75rem;
+    cursor: pointer;
+    color: white;
+    background: linear-gradient(20deg,#66345b,#2f3380 20%,#44888c 60%,#44888c 65%,#2f3380)
+}
+
+
+.connect-metamask{
+    background-color: hsl(28deg 91% 54%);
+    border: none;
+    margin: 1rem auto;
+    font-size: 1.5rem;
+    padding: 0.5rem 2rem;
+    border-radius: 0.75rem;
+    cursor: pointer;
+    color: white;
+}

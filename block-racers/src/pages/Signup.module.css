@@ -1,0 +1,102 @@
+.singup-page{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-section{
+    width: 100%;
+    background: url("signupbackground.svg");
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    background-size: contain;
+}
+
+.signup-box{
+    margin: 1rem auto;
+    width: 25rem;
+    background-color: white;
+    padding: 2rem 3rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    box-shadow: 0px 2px 10px 1px rgba(0,0,0,0.25);
+}
+
+.title{
+    font-family: var(--default-font);
+    font-weight: 800;
+    font-size: 1.2rem;
+    background: linear-gradient(90deg, rgba(181,70,227,1) 0%, rgba(59,209,242,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: left;
+    margin-bottom: 0.5rem;
+}
+
+.input-holder{
+    margin: 0.5rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: var(--default-font);
+}
+
+.input-label{
+    font-weight: 800;
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+}
+
+.input{
+    width: 17rem;
+    font-family: var(--secondary-font);
+    font-size: 1rem;
+    padding: 0.25rem 1.5rem;
+    border-radius: 5rem;
+    border: 1px solid #000
+}
+
+.input-wrapper{
+    width: 20rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.signup{
+    background: linear-gradient(90deg, rgba(255,196,116,1) 0%, rgba(252,182,159,1) 100%);
+    color: white;
+    font-family: var(--secondary-font);
+    font-size: 1rem;
+    padding: 0.5rem 2rem;
+    border-radius: 12rem;
+    margin: 0.5rem 0;
+    cursor: pointer;
+}
+
+.message{
+    margin: 0.5rem 0;
+    line-height: 1.5;
+    font-family: var(--secondary-font);
+}
+
+.sign-in-instead{
+    margin: 1rem 0;
+    font-family: var(--default-font);
+    font-weight: 800;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.continue-as-guest{
+    background: linear-gradient(90deg, rgba(251,194,235,1) 0%, rgba(166,193,238,1) 100%);
+    color: white;
+    font-family: var(--secondary-font);
+    font-size: 1rem;
+    padding: 0.5rem 2rem;
+    border-radius: 12rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}

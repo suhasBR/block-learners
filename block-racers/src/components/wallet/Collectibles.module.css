@@ -1,0 +1,47 @@
+.top-section{
+    width: 100%;
+    background-color: white;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.wallet-title{
+    display: flex;
+    flex-direction: column;
+    text-align: top;
+}
+
+.connected{
+    width: 0.75rem;
+    height: 0.75rem;
+    background-color: green;
+    border-radius: 50%;
+}
+
+.wallet-title-text{
+    font-family: var(--secondary-font);
+    font-size: 0.75rem;
+}
+
+.wallet-title-text-2{
+    font-family: var(--secondary-font);
+    font-size: 0.5rem;
+}
+
+.collectibles{
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.image-holder{
+    width: 5rem;
+    height: 3rem;
+}
+
+.image-holder img{
+    width: 100%;
+}

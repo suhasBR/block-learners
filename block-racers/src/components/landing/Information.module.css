@@ -1,0 +1,49 @@
+.information-section{
+    margin: 2rem 0;
+    padding: 0 10rem;
+}
+
+.information-board{
+    display: 100%;
+    padding: 2rem;
+    border-radius: 1rem;
+    color: white;
+    background: linear-gradient(90deg, rgba(153,207,224,1) 0%, rgba(58,99,241,1) 36%, rgba(203,30,165,1) 60%, rgba(67,52,238,1) 100%);
+}
+
+.text{
+    font-size: 1.4rem;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.buttons{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.button{
+    max-width: 20rem;
+    padding: 1rem 2rem;
+    background-color: white;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 1.5rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .buttons{
+        flex-direction:column;
+    }
+
+    .information-section{
+        padding: 0 3rem;
+    }
+
+
+}

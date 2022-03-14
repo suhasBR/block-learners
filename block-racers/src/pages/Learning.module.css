@@ -1,0 +1,151 @@
+.learning-page{
+    display: flex;
+    flex-direction: column;
+}
+
+.full-page {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.sidebar-container{
+    width: 17%;
+}
+
+.wallet-container {
+    width: 24.5%;
+}
+
+/* Main content begins */
+
+.main-content{
+    width: 58.5%;
+    padding: 2rem 1rem;
+    font-family: var(--default-font);
+    overflow: auto;
+    /* scrollbar-width: none; */
+}
+
+.main-content::-webkit-scrollbar{
+    /* display: none; */
+}
+
+
+.title-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.focus-mode-button{
+    color: white;
+    background-color: #c03aff;
+    border-radius: 5rem;
+    border: none;
+    width: 7rem;
+    padding: 0rem 1rem;
+    font-size: 0.9rem;
+}
+
+.title{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.5rem;
+}
+
+.learning-card-holder{
+    overflow: auto;
+}
+
+.learning-card{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #ebebeb;
+    margin-bottom: 4rem;
+}
+
+.green-tick-holder{
+    width: 5rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.green-tick{
+    margin-top: 2rem;
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.content{
+    padding: 1rem 0;
+    width: calc(100% - 7rem);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.content-text{
+    margin-top: 1rem;
+    text-align: left;
+    line-height: 1.5;
+    white-space: pre-wrap;
+}
+
+.content-text a{
+    color: blue;
+    text-decoration: underline;
+}
+
+.content-video{
+    width: calc(100% - 7rem);
+}
+
+.content-image{
+    margin: 2rem 0;
+    width: calc(100% - 7rem);
+}
+
+.img{
+    width: 100%;
+}
+
+.yt-thumbnail{
+    margin: 1rem auto;
+    width: 100%;
+    cursor: pointer;
+}
+
+.content-reward{
+    width: 100%;
+    font-weight: 700;
+    text-align: right;
+}
+
+.content-action{
+    background-color: white;
+    padding: 1rem 2rem;
+    width: 100%;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.action-button{
+    background: linear-gradient(90deg, rgba(189,67,246,1) 0%, rgba(71,233,255,1) 100%);
+    padding: 0.5rem 1rem;
+    color: white;
+    border-radius: 5rem;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+}
+

@@ -1,0 +1,96 @@
+.chapters-page {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .full-page {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .wallet-container {
+    width: 25%;
+  }
+  
+  .main-content {
+    width: 75%;
+    display: flex;
+    height: 100vh;
+    flex-direction: row;
+    padding: 0.4rem 0rem;
+    font-family: var(--secondary-font);
+    font-weight: 400;
+  }
+  
+  .navigation{
+      font-family: var(--secondary-font);
+      font-weight: 400;
+      line-height: 1.5;
+      padding: 1rem 1rem;
+      display: flex;
+      width: 30%;
+      flex-direction: column;
+      align-items: center;
+      height: 100vh;
+      background-color: #f0f0f0; 
+  }
+  
+  .navigation-title{
+      font-size: 1.5rem;  
+      margin-bottom: 2rem;
+  }
+  
+  .card{
+      width: 99%;
+      background-color: #8D6CD9;
+      padding: 0.5rem 1rem;
+      color: white;
+      text-transform: uppercase;
+      display: flex;
+      justify-content: flex-start;
+      border-radius: 0.5rem;
+      margin-bottom: 1rem;
+      cursor: pointer;
+  }
+  
+ .content-text{
+     width: 70%;
+     padding: 1rem 2rem;
+     display: flex;
+     flex-direction: column;
+     overflow: auto;
+    scrollbar-width: none;
+ }
+
+
+ .cover-image-holder{
+     border-top-left-radius: 1rem;
+     border-top-right-radius: 1rem;
+ }
+
+ .cover-img{
+     max-width: 100%;
+ }
+
+ .title-holder{
+     margin: 2rem 0;
+     font-size: 2rem;
+ }
+
+ .article-duration{
+     font-size: 1rem;
+ }
+
+ .article-title{
+
+ }
+
+ .paragraph{
+     text-align: left;
+     line-height: 2;
+     font-size: 1.25rem;
+     margin-bottom: 3rem;
+     font-weight: 0;
+ }
+ 
+  

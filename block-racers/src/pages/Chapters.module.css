@@ -1,0 +1,104 @@
+.chapters-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.full-page {
+  display: flex;
+  flex-direction: row;
+}
+
+.wallet-container {
+  width: 25%;
+}
+
+.main-content {
+  width: 75%;
+  display: flex;
+  height: 100vh;
+  flex-direction: row;
+  padding: 0.4rem 0rem;
+}
+
+.navigation{
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 1rem 1rem;
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0; 
+}
+
+.navigation-title{
+    font-size: 1.5rem;  
+    margin-bottom: 2rem;
+}
+
+.card{
+    width: 99%;
+    background-color: #8D6CD9;
+    padding: 0.5rem 1rem;
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.gallery{
+    width: 70%;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 1.5rem;
+    overflow: auto;
+    scrollbar-width: none;
+}
+
+.gallery::-webkit-scrollbar{
+    display: none;
+}
+
+.study-card{
+    width: 12rem;
+    height: 18rem;
+    border-radius: 1rem;
+    background-color: #c4c4c4;
+    position: relative;
+    cursor: pointer;
+}
+
+.chapter-image{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+}
+
+.text-holder{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0.5rem 0;
+    background: hsla(0,0%,9%,.6);
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.chapter-text{
+    text-align: center;
+    margin: auto;
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}

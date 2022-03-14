@@ -1,0 +1,54 @@
+.blocz-page{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 4rem;
+}
+
+.title{
+    font-size: var(--title-size);
+    font-weight: 700;
+    margin-bottom: 2rem;
+    font-family: var(--default-font);
+    background: linear-gradient(90deg, rgba(181,70,227,1) 0%, rgba(217,222,216,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.help{
+    display: flex;
+    flex-direction: row;
+    padding: 3rem 0;
+    align-items: center;
+}
+
+.text-holder{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.image-holder{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.text{
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    padding: 2rem;
+    font-size: 1.2rem;
+    /* margin-bottom: 1rem; */
+    line-height: 2;
+    text-align: left;
+}
+    
+.text-imp{
+    padding: 2rem;
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2;
+    color: orange;
+    text-align: left;
+}

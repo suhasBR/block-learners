@@ -1,0 +1,9 @@
+
+.dialog{
+    width: 15rem;
+    height: 30rem;
+    background-color: white;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}

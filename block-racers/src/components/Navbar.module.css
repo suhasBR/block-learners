@@ -1,0 +1,76 @@
+.navbar{
+    width: 100%;
+    padding: 0.75rem 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 0px 2px 10px 1px rgba(0,0,0,0.25);
+    font-family: var(--secondary-font);
+}
+
+.logo-holder{
+    width:7rem;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.pre-alpha{
+    /* width: 25%; */
+    font-size: 0.5rem;
+
+}
+
+.text-holder{
+    width: 40%;
+}
+
+.logo-img{
+    width: 60%;
+}
+
+.nav-links-holder{
+    width: calc(100% - 7rem);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-align: center;
+}
+
+.nav-link{
+    margin: auto 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    color: #34353A;
+    font-family: var(--secondary-font);
+    font-weight: normal;
+}
+
+/* .connect-button-holder{
+    display: flex;
+}
+
+.connect-button {
+    font-family: var(--secondary-font);
+    max-width: 30rem;
+    padding: 0.5rem 5rem;
+    border-radius: 2rem;
+    border: none;
+    font-size: 1.2rem;
+    margin: auto 0;
+    background: linear-gradient(90deg, rgba(246,211,101,1) 0%, rgba(253,160,133,1) 100%);
+    color: white;
+    cursor: pointer;
+} */
+
+
+@media (max-width: 768px) {
+    /* .connect-button-holder{
+        display: none;
+    } */
+
+    .navbar{
+        width: 100vw;
+    }
+
+}

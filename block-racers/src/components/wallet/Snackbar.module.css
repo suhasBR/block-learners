@@ -1,0 +1,13 @@
+.snackbar{
+    display: flex;
+    justify-content: center;
+    padding:1rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    position: absolute;
+    bottom: 2.5rem;
+    text-align: center;
+    background: linear-gradient(90deg, rgba(246,211,101,1) 0%, rgba(253,160,133,1) 100%);
+    width: 100%;
+    color: black;
+}

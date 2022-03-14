@@ -1,0 +1,76 @@
+.cards-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    margin: 2rem auto;
+    font-size: var(--title-size);
+    font-family: var(--default-font);
+    font-weight: 600;
+}
+
+.text-gradient{
+    background: linear-gradient(90deg, rgba(246,211,101,1) 0%, rgba(253,160,133,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 2rem 5rem;
+}
+
+.card{
+    width: 15rem;
+    /* padding: 2rem; */
+    border-radius: 1rem;
+    /* height: 8rem; */
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.first-card{
+    background: linear-gradient(to right, rgba(166,192,254,1) 0%, rgba(246,128,132,1) 100%);
+}
+
+.second-card{
+    background: linear-gradient(90deg, rgba(246,211,101,1) 0%, rgba(253,160,133,1) 100%);
+}
+
+.third-card{
+    background: linear-gradient(90deg, rgba(152,225,179,1) 0%, rgba(143,211,244,1) 100%);
+}
+
+.card .image{
+    width: 15rem;
+    height: 15rem;
+}
+
+.card-description{
+    font-size: var(--normal-text-size);
+    font-family: var(--secondary-font);
+    text-align: center;
+    line-height: 1.5;
+    color: white;
+    font-weight: 700;
+    padding: 0 1rem 2rem 1rem;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .title{
+        font-size: 2.5rem;
+    }
+
+    .card{
+        margin-bottom: 2rem;
+    }
+
+}
+
+

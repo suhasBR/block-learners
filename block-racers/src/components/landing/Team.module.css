@@ -1,0 +1,81 @@
+.team-section {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem ;
+}
+
+.title {
+  margin-bottom: 3rem;
+  font-size: var(--title-size);
+  font-family: var(--default-font);
+  font-weight: 700;
+}
+
+.text-gradient {
+  background: linear-gradient(
+    to right,
+    rgba(166, 192, 254, 1) 0%,
+    rgba(246, 128, 132, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.team-members {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 0rem 5rem;
+  font-family: var(--secondary-font);
+  font-weight: 400;
+}
+
+.member{
+    width: 15rem;
+    padding: 0rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image{
+    width: 11rem;
+    height: 11rem;
+}
+
+.member-description{
+    font-size: 1.1rem;
+    text-align: center;
+    line-height: 1.2;
+    margin-top: 1.4rem;
+}
+
+.image-advisor{
+    background-color: #80808047;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plus{
+    font-size: 5rem;
+}
+
+.icons{
+    margin-top: 1.5rem;
+}
+
+.twitter{
+    width: 1.5rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .member{
+    margin-bottom: 2rem;
+  }
+}

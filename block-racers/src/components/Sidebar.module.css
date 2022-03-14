@@ -1,0 +1,114 @@
+.sidebar-full{
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    justify-content: space-between;
+}
+
+
+.link{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem 0.5rem;
+    font-family: var(--secondary-font);
+    font-weight: normal;
+    justify-content: flex-start;
+    font-size: 0.7rem;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    background-color: #ebebeb;
+    border-radius: 0.75rem;
+    cursor: pointer;
+}
+
+.text{
+  margin-left: 0.5rem;
+    /* width: 11rem; */
+    text-align: left;
+}
+
+.profile-container {
+  font-size: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile-pic-holder{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+      padding: 0.5rem;
+      background-color: rgba(235,235,235,1);
+      border-top-left-radius: 0.5rem;
+      border-top-right-radius: 0.5rem;
+  }
+  
+  .progress-bar {
+    margin-top: 0.5rem;
+    width: 4rem;
+    height: 0.3rem;
+    left: 125px;
+    top: 489px;
+    background: #c4c4c4;
+    border-radius: 50px;
+  }
+  
+  .fill {
+    width: 2.5rem;
+    height: 0.3rem;
+    left: 125px;
+    top: 489px;
+    background: #91f581;
+    border-radius: 50px;
+  }
+  
+  .name-text {
+    font-family: var(--secondary-font);
+    color: black;
+  }
+  
+  .profile-image {
+    width: 22%;
+  
+    border-radius: 50%;
+    box-shadow: 0px 2px 10px 1px rgba(0,0,0,0.25);
+  }
+
+  .progress-bar-text{
+    font-family: var(--secondary-font);
+    color: black;
+    font-size: 0.5rem;
+  }
+
+  .nav{
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: gray;
+  }
+
+  .details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile-name-holder{
+    width: 100%;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    color: white;
+    background: linear-gradient(90deg, rgba(225,79,172,1) 0%, rgba(249,212,35,1) 100%);
+  }
+
+  .profile-name-holder .text{
+    color: white;
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 0.5rem 0;
+  }

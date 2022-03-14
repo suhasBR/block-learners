@@ -1,0 +1,92 @@
+.wallet-full{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    font-family: var(--secondary-font);
+    position: sticky;
+    top: 0;
+    width: 90%;
+    height: 80vh;
+    margin: auto;
+}
+
+
+.horizontal-bar{
+    width: 100%;
+    border-radius: 0.5rem;
+    /* margin-bottom: 1rem; */
+    background-color: #c5c5c5;
+    padding: 0.5rem 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.75rem;
+}
+
+.connected{
+    width: 0.75rem;
+    height: 0.75rem;
+    background-color: green;
+    border-radius: 50%;
+}
+
+.expander{
+    cursor: pointer;
+}
+
+.logo-holder{
+    width: 5rem;
+}
+
+.wallet-main{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 100%;
+    border: 1px solid #c5c5c5;
+    height: 100%;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.25);
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(210,210,210,1) 100%);
+    padding: 1rem;
+}
+
+.logo-img{
+    max-width: 100%;
+}
+
+.central-network{
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    border: 1px solid #818181;
+    font-size: 0.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #f9f9f9;
+    padding: 0.75rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 1rem;
+}
+
+.icon{
+    cursor: pointer;
+}
+
